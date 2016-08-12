@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vg6-y5-qd1"/>
+                        <viewControllerLayoutGuide type="bottom" id="oFh-vP-0gb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lIv-JJ-oeE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="111656-glowing-green-neon-icon-media-ipod2" translatesAutoresizingMaskIntoConstraints="NO" id="3yg-fA-acT">
+                                <rect key="frame" x="39" y="132" width="242" height="201"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Algorythm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9V-yu-dlz">
+                                <rect key="frame" x="104" y="316" width="155" height="62"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.4039215686" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3yg-fA-acT" secondAttribute="trailing" constant="18" id="76d-Sp-QA1"/>
+                            <constraint firstItem="3yg-fA-acT" firstAttribute="leading" secondItem="lIv-JJ-oeE" secondAttribute="leadingMargin" constant="20" id="XC1-dk-xIq"/>
+                            <constraint firstItem="3yg-fA-acT" firstAttribute="top" secondItem="vg6-y5-qd1" secondAttribute="bottom" constant="147" id="lPv-g6-vrF"/>
+                            <constraint firstItem="oFh-vP-0gb" firstAttribute="top" secondItem="3yg-fA-acT" secondAttribute="bottom" constant="200" id="tAX-Ok-vjG"/>
+                            <constraint firstItem="s9V-yu-dlz" firstAttribute="top" secondItem="3yg-fA-acT" secondAttribute="bottom" constant="-17" id="uKf-bI-1Xl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="111656-glowing-green-neon-icon-media-ipod2" width="512" height="512"/>
+    </resources>
+</document>
